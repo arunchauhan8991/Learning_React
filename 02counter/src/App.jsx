@@ -20,8 +20,8 @@ function App() {
     // setCounter(counter + 1);
 
     setCounter((prevCounter) => prevCounter + 1);
-    setCounter((prevCounter) => prevCounter + 1);
-    setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
   }
 
   const removeValue = () => {
@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-    <h1>hello</h1>
+    <h1>Counter</h1>
     <h2>counter value is : {counter}</h2>
     <button onClick={addValue}>Add Value {counter}</button>
     <br/>
