@@ -23,7 +23,7 @@ function App() {
     }
 
     setPassword(pass);
-    //whenever any change in these dependencies put changes in cache ==> OPTIMISATION 
+    //USECALLBACK => whenever any change in these dependencies put changes in cache ==> OPTIMISATION 
   }, [length, numberAllowed, characterAllowed, setPassword]);
 
 
@@ -38,7 +38,7 @@ function App() {
   useEffect(() => {
     passwordGenertor();
     // called when page loads at first time
-    //whenever any change in these dependencies rerun the setup that is passwordGenertor()
+    // USEEFFECT => whenever any change in these dependencies rerun the setup i.e passwordGenertor()
   }, [length, numberAllowed, characterAllowed])
 
 
