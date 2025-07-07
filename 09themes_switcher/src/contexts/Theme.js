@@ -1,10 +1,10 @@
 import { createContext, useContext } from "react";
 
 export const ThemeContext = createContext({
-    themeMode: "light",
-    darkTheme: () => {},
-    lightTheme: () => {}
-})
+  themeMode: "light",
+  darkTheme: () => {}, // we only write name of function functionality is written in App.jsx
+  lightTheme: () => {}, // we only write name of function functionality is written in App.jsx
+});
 
 export const ThemeProvider = ThemeContext.Provider
 
