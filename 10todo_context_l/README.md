@@ -1,4 +1,4 @@
 
 # Screenshot 
 
-[!Screenshot](./src/img/1.png)
+![Screenshot](./src/img/1.png)
